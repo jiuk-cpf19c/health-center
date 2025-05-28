@@ -21,7 +21,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('products.urls')),  # ✅ 추가
+    path('api/', include('products.urls')), 
+    path('api/', include('orders.urls')),
 ]
 
 # 이미지 URL 처리 (개발용)

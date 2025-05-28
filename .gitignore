@@ -1,0 +1,15 @@
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+*.log
+db.sqlite3
+
+# React
+node_modules/
+.env
+.env.local
+health-frontend/.next/
+
+# OS
+.DS_Store
