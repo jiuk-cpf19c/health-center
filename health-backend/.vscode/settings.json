@@ -1,0 +1,6 @@
+{
+  "python.pythonPath": "venv\\Scripts\\python.exe",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
